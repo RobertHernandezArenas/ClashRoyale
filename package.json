@@ -1,0 +1,40 @@
+{
+  "name": "clashroyale-app",
+  "version": "1.0.0",
+  "description": "A Nuxt.js ClashRoyale app",
+  "type": "module",
+  "author": "Robert Hernández Arenas <https://github.com/RobertHernandezArenas>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertHernandezArenas/ClashRoyale.git"
+  },
+  "keywords": [
+    "nuxt",
+    "vue",
+    "clashroyale"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "^1.3.0",
+    "@nuxt/fonts": "^0.11.2",
+    "@nuxt/icon": "^1.12.0",
+    "@nuxt/image": "^1.10.0",
+    "@nuxt/scripts": "^0.11.6",
+    "@nuxt/test-utils": "^3.17.2",
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "@unhead/vue": "^2.0.8",
+    "eslint": "^9.25.1",
+    "nuxt": "^3.17.1",
+    "prettier-plugin-tailwindcss": "^0.6.1",
+    "prettier": "^3.3.0",
+    "vue-router": "^4.5.1",
+    "vue": "^3.5.13"
+  }
+}
