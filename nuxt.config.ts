@@ -6,12 +6,7 @@ export default defineNuxtConfig({
 
 	css: ['~/assets/css/tailwind.css'],
 
-	typescript: {
-		shim: false,
-	},
-
 	modules: [
-		'@nuxt/eslint',
 		'@nuxt/fonts',
 		'@nuxt/icon',
 		'@nuxt/image',
